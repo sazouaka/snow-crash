@@ -1,0 +1,5 @@
+#Enter the following command on mac
+scp -P 4242 level02@10.11.100.250:~/level02.pcap .
+#Go to cloudshark and upload the pcap file
+#go to analysis tools and click on follow stream
+#you will get a password to solve ;)

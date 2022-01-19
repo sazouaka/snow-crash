@@ -1,0 +1,3 @@
+cat $(find / -user flag00 2>/dev/null) # to find the content of all file owned by the user 'flag00'
+decrypt what we found in dcode.fr using Cesar
+result: cdiiddwpgswtgt ==> nottoohardhere
