@@ -1,0 +1,7 @@
+#After looking for Perl files and how they work
+#I found a perl documentation explaning how passing
+#parameters via CGI work
+#"https://www.cs.ait.ac.th/~on/O/oreilly/perl/learn32/ch18_04.htm"
+#and I understood that in this program x parametre is passed
+#and we can use it to execute getflag in the server via :
+#http://10.11.100.118:4747/?x=$(getflag)

