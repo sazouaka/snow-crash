@@ -1,0 +1,6 @@
+#there is an executable but no other file to execute
+#we check the program on the file using ltrace debugger
+#the program call echo to write value of LOGNAME
+#we check value of LOGNAME using env command
+#LOGNAME=level07 and that's why the executable print level07
+#we make a trick and give LOGNAME the value "&& getflag"

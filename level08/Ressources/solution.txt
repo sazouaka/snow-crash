@@ -1,0 +1,10 @@
+#again there is executable and a file
+#ltrace again to read the level08 program
+#it takes a file as argument and we pass token to it
+#we again use ltrace with token as argument
+#we get a message we can't read token
+#the program compares token to filename
+#we use the symlink to change the filename and trick the program
+#after 1000000 of failed test and almost gave up
+#we used the following methond ln -s : (we use the whole path of file)
+#/home/user/level08/token /tmp/ourtoken

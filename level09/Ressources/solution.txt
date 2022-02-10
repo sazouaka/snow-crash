@@ -1,0 +1,13 @@
+#the same as level08 but this time we execute ./level09 token
+#we get an output and also we can't read the level09 program
+#using ltrace, it is protected so we randomly give level09
+#different arguments and I noticed that the output has always
+# the same lenght as the argument then I give it 123456
+#and I got 13579; and I thought maybe it adds an index to ascii code of
+#each caracter. After reading ascii table and comparing that to output
+#I understood that teh program add to the caracter the index of the previous one
+#let's write a reverse program and compile it inside of /tmp
+#cd /tmp .. vim decode.c ... gcc decode.c -o lol ..
+#we get back to level09 and we execute /tmp/lol 123456
+#the output is 000000
+#so it's correct then let's try /tmp/lol $(cat token)

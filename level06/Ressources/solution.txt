@@ -1,0 +1,9 @@
+#there is an executable and a php file
+#if we execute the php file with the executable
+#we get a php code and by reading it we can see
+#that there is usage of regex
+#after understanding regex and reading and reading code
+#we assume that y variable must be a file to open and read
+#and we should givethe executable the following command:
+#[x ${`getflag`}]" to translate it via regex to ${`getflag`}
+#and as usual we put the file with this command on /tmp
